@@ -1,0 +1,12 @@
+---
+layout: none
+---
+# APIs.io AI Preferences
+
+> Each provider's stance on AI training, AI use and inference, and agents that sign up, act and purchase, plus the AI signals it publishes. Every statement is quoted word for word from the provider's own page, with the page and the date it was read. Nothing is generated, and APIs.io verifies none of it.
+
+- [AI Preferences directory](https://apis.io/ai-preferences/): every published document
+- [API Commons AI Preferences schema](https://github.com/api-commons/ai-preferences): the format these documents use
+- [IETF AIPREF](https://datatracker.ietf.org/wg/aipref/about/): the IETF AI Preferences vocabulary the stances align with
+- [Content Signals](https://contentsignals.org/): the robots.txt search / ai-input / ai-train signals
+- [llms.txt](https://llmstxt.org/): the llms.txt convention

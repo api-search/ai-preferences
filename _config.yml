@@ -1,0 +1,33 @@
+name: APIs.io AI Preferences
+description: "Each provider's stance on AI training, AI use and inference, and agents that sign up, act and purchase, plus the AI signals it publishes, quoted from their own pages."
+image: https://apis.io/assets/branding/apisio-social-card.png
+url: https://apis.io
+node: website
+nav_active: ai-preferences
+
+keywords:
+  - APIs
+  - Search
+  - Discovery
+  - AI Preferences
+  - IETF AIPREF
+  - Content Signals
+  - llms.txt
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+include: [".well-known"]
+
+github_org: api-search
+github_repo: ai-preferences
+
+collections:
+  aipreferences:
+    output: true
+    permalink: /ai-preferences/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: aipreferences
+    values:
+      layout: ai-preferences
