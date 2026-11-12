@@ -1,0 +1,58 @@
+---
+claim_count: 1
+description: ''
+doc:
+  agent_actions:
+    stance: conditional
+    text: use automated tools to access the Service beyond the scope of the provided API.
+  agent_onboarding:
+    stance: unstated
+    text: null
+  agent_purchases:
+    stance: unstated
+    text: null
+  ai_use:
+    stance: unstated
+    text: null
+  signals:
+    ai_txt_url: null
+    aipref_header: false
+    content_signals: false
+    llms_txt_url: https://concessio.io/llms.txt
+    x-probed: https://concessio.io
+  train_ai:
+    stance: unstated
+    text: null
+  train_genai:
+    stance: unstated
+    text: null
+layer: ai_preferences
+layer_version: 0.1.0
+layout: ai-preferences
+method: harvested
+model: claude-haiku-5-5
+name: Concessio
+provenance_date: '2026-11-09'
+provider_name: Concessio
+provider_slug: concessio-io
+slug: concessio-io-ai-preferences
+source_date: '2026-11-09'
+source_filename: concessio-io-ai-preferences.yml
+source_heading: AI Preferences
+source_page: https://concessio.io/terms
+source_url: ''
+source_yaml: "# Read from the provider's own page by engine/business/harvest-business.py. Every `text` is quoted verbatim from `url` (or the row's `source`); `unstated` means the page did not say.\nai_preferences: 0.1.0\nprovider: Concessio\naid: concessio-io\nurl: https://concessio.io/terms\nsource_date: '2026-11-09'\nx-apis-io-derivation:\n  synthetic: false\n  method: harvested\n  read: '2026-11-09'\n  tool: engine/business/harvest-business.py\n  model: claude-haiku-5-5\ntrain_ai:\n  stance: unstated\n  text: null\ntrain_genai:\n  stance: unstated\n  text: null\nai_use:\n  stance: unstated\n  text: null\nagent_onboarding:\n  stance: unstated\n  text: null\nagent_actions:\n  stance: conditional\n  text: use automated tools to access the Service beyond the scope of the provided API.\nagent_purchases:\n  stance: unstated\n  text: null\nsignals:\n  aipref_header: false\n  content_signals: false\n  ai_txt_url: null\n  llms_txt_url: https://concessio.io/llms.txt\n  x-probed: https://concessio.io\n"
+source_yaml_url: https://artifacts.apis.io/concessio-io/ai-preferences/concessio-io-ai-preferences.yml
+stated_fields:
+- agent_actions
+summary_line: 1 quoted statement, read from Concessio's own page on 2026-11-09.
+synthetic: false
+tags:
+- Company
+- Infrastructure
+- Concessions
+- Investment Intelligence
+- Financial Data
+- Project Finance
+- MCP
+---
